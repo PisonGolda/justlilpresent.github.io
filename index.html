@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Present | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/slice_cake_birthday_cake_dessert_sweet_icon_207992.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="./Page/index copy 8.html">
+            <img src="./img/present-svgrepo-com 1.png" class="logo">
+            </a>
+            <nav>
+                <!--
+                <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="./Page/story.html">Story</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+                -->
+            </nav>
+            <img src="./img/menu-icon-white-png-27.jpg" class="menu-icon"
+            onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>Hello,<br>Hermione!</h2>
+                <h3>Happy Birthday</h3>
+                <p>This is my little present for u</p>
+                <h4>I hope you like it:)</h4>
+                <a href="./Page/index copy.html">
+                <button type="button">Cute Button<img src="./img/arrow.png"></button>
+                </a>
+            </div>
+            <div class="col-2">
+                <img src="./img/cake-svgrepo-com 1.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <!--<img src="./Playstation_Img/add.png">
+                    <p>Download</p> -->
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="social-links">
+            <img src="./Playstation_Img/fb.png">
+            <img src="./Playstation_Img/tw.png">
+            <img src="./Playstation_Img/ig.png"> -->
+        </div>
+
+    </div>
+
+      <script>
+
+            var menuList = document.getElementById("menuList");
+
+            menuList.style.maxHeight = "0px";
+
+            function togglemenu(){
+
+                    if(menuList.style.maxHeight == "0px")
+                        {
+                            menuList.style.maxHeight = "130px";
+                        }
+                    else
+                        {
+                            menuList.style.maxHeight = "0px";
+                        }
+            }
+
+      </script>
+</body>
+</html>
